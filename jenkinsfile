@@ -1,0 +1,20 @@
+pipeline{
+ agent None
+ stages{
+    stage ('Build'){
+    steps{
+    
+        echo "Building scripted job"
+        
+    }}
+    stage ('test'){
+    steps{
+        echo "Testing scripted job"
+        
+    }}
+    stage ('deploy'){
+    steps{
+        echo "deploying scripted job"
+        
+    }}
+}
