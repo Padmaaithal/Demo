@@ -1,6 +1,7 @@
 pipeline{
  agent None
- stages{
+ stages
+ {
     stage ('Build'){
     steps{
     
@@ -17,4 +18,5 @@ pipeline{
         echo "deploying scripted job"
         
     }}
+}
 }
